@@ -1,0 +1,58 @@
+Server with Nodemon
+------------------------------
+npm install nodemon -d  // -d means DevDependencies
+Open Package.json file in server folder and paste the script below,
+
+  "scripts":{
+    "start":"node server.js",
+    "dev":"nodemon --watch server.js"
+
+Run the file using cmd "npm run dev"
+
+Client using ReactJS
+--------------------------
+npx create-react-app client
+
+Note:error
+--------------
+1. It may ask to proceed with installation (y)
+2. It may say "create-react-app" is not recognized
+             -> npm install create-react-app
+             -> npm install create-react-app -g
+             -> npm update --force
+             -> npm cache clean --force
+             -> npm rebuild node-sass
+             -> npx create-react-app client
+             
+you will get : Happy hacking!!!!
+-----------------------------------
+  cd client
+  npm start
+
+
+
+Inside that directory, you can run several commands:
+-----------------------------------------------------------------
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+-----------------------------------------------
+  cd client
+  npm start
+
+Happy hacking!!!!
+
+
+
+

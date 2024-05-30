@@ -1,0 +1,63 @@
+MERN STACK DEVELOPEMENT
+
+M-MongoDB -NoSQL DB
+
+E-Express.js -Output in browser -FrameWork
+
+R-React.js -Front End -Package/Module
+
+N-Node.js -BackEnd -Runtime Environment
+
+
+INSTALL Node.js
+
+node --version
+
+Create file as server.js and print welcome
+run the file as "node server.js"
+
+
+Why React.js?
+
+- It is a single page app
+- Single threaded app
+- Widely used scripting language in the world is JS
+-  
+
+
+
+
+Step1 : Create file as server.js
+Step2 : Write function to add numbers
+Step3 :Execute the program in cmd as "node.js"
+Step4 :Introduce ES6 's arrow function and check it
+const a =(a,b) =>
+{
+ a=a+10;
+ return a+b;
+} 
+console.log(a(10,20));
+
+Refering Websites:
+------------------------------
+
+1.www.fullstackopen.com
+2.www.github.com/balajee-rm
+
+View BackEnd Data in Browser:
+
+---------------------------------
+
+Step5 : Convert the program with express framework
+Step6 : Install pacakages with following commands
+       ->npm install express 
+       -> npm i express
+       -> npm i express -g //global installation
+       -> npx install express //binary files only
+       
+Step7 : Run in cmd as "node server.js"
+Step8 : Run in broweser as "localhost:8000/"
+
+Task to Students:
+-----------------------------------------------------
+find the package which need to install to sort out issue of saving the file and restarting the server

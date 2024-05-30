@@ -1,0 +1,25 @@
+Request from login.js to server
+-----------------------------------
+//statefull component = hold the same last value(required) when page is reloaded(refreshing the page and assigning value)
+const [login,setLogin]= useState(null)
+
+axios.get(http://localhost:8080/check',{
+        un: data.un,
+        pw: data.pw
+
+
+}).then((response)=>{
+console.log(response.data)
+setLogin(response.data)
+console.log(login) //prints null(in 1st case since page isn't reloaded)
+})
+
+if(login === null || login === 'fail'){
+    old return()
+    }else{
+        return(
+            <div>
+            This is a Home Page
+            </div>
+        );
+    }

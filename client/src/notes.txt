@@ -1,0 +1,6 @@
+<BrowserRouter>
+      <Routes>
+       <Route path="/" element={<Login store={store}/>} />
+       <Route path="/reg" element={<Registration/>} />   
+      </Routes>
+      </BrowserRouter>

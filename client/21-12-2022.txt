@@ -1,0 +1,26 @@
+go to MSWD folder and open cmd
+---------------------------------------
+
+download nodeJS and install
+node --version
+npx create-react-app client
+
+go to src folder inside client and open App.js
+
+App.js return statement is exported to index.js
+index.js renders App.js content in root div of index.html
+
+
+create login page with react
+-----------------------------------------------
+1. create outer div with className App
+2. create header div inside App div
+3. create logo and title in header div
+4. adjust the header css for the requirement
+5. create the body div inside App div
+6. create the body css by copying header css
+7. create the login div inside the body div
+8. create the login css by copying body css
+9. create form tag inside login div
+10. create two text boxes and sumbit button in form
+11. handleSubmit attribute with js function
